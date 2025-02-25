@@ -1,0 +1,15 @@
+import json
+import datetime
+
+def save_response(question, response):
+    """Saves API responses to a log file with timestamps."""
+    log_entry = {
+        "timestamp": datetime.datetime.now().isoformat(),
+        "question": question,
+        "response": response
+    }
+    
+    with open("responses.log", "a", encoding="utf-8") as log_file:
+        log_file.write(json.dumps(log_entry, ensure_ascii=False) + "\n")
+
+

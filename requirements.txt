@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+requests
+beautifulsoup4
+chromadb
+openai
+dotenv
+protobuf==3.20.3
+python-dotenv
