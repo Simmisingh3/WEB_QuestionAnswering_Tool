@@ -2,15 +2,25 @@
 This Project aims to answer all the questions related to a webpage or its link. 
 
 Below is the structure of my prject.
+
 📌 Project Structure
+
 web-qa-tool/
+
 │── backend/
+
 │   │── venv/             # Virtual environment
+
 │   │── main.py           # FastAPI app (API endpoints)
+
 │   │── scraper.py        # Extracts text from URLs
+
 │   │── retriever.py      # Embeds text & retrieves answers
+
 │   │── config.py         # Stores API keys & settings
+
 │   │── requirements.txt  # Dependencies
+
 │── README.md             # Setup guide
 
 # Steps to run this file
