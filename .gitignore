@@ -1,0 +1,23 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local vector database and runtime logs
+chroma_db/
+*.log
+
+# Editors / OS
+.DS_Store
+.vscode/
+.idea/
